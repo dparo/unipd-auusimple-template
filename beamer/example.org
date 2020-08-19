@@ -1,0 +1,40 @@
+#+TITLE: Modeling and Forecasting of Timescale Network Traffic Dynamics in M2M Communications
+#+SUBTITLE: davide.paro@studenti.unipd.it
+#+AUTHOR: Davide Paro
+#+DATE: September 2020
+#+EMAIL: davide.paro@studenti.unipd.it
+
+
+#+LaTeX_CLASS_OPTIONS: [aspectratio=169]
+
+#+LATEX_HEADER: \pgfdeclareimage[height=1.5cm]{titlepagelogo}{imgs/unipd_black.png}
+
+#+BEGIN_EXPORT latex
+%\setbeamercolor{structure}{bg=red}
+% \setbeamercolor{frametitle}{bg=blue}
+% \setbeamercolor{normal text}{fg=black,bg=gray!10}
+
+%\pgfdeclareimage[height=1.5cm]{titlepagelogo}{imgs/unipd_black.png}
+
+%\titlegraphic{
+%  \pgfuseimage{titlepagelogo}
+%}
+#+END_EXPORT
+
+
+
+#+BEAMER_THEME: AAuSimple [height=18pt]
+
+
+
+
+* Slide 1
+** Nested slide 1
+** Nested slide 2
+
+
+
+* Slide 2
+* Slide 3
+* Slide 4
+* Slide 5
