@@ -27,16 +27,16 @@ mkdir -p $install_folder/tex/latex/beamer/themes/{color,inner,outer,theme}
 mkdir -p $install_folder/tex/generic/images
 
 #copy .sty files to coresponding folders
-for beamer_temp in Aalborg AAUsidebar AAUsimple; do
+for beamer_temp in AAUsimple; do
     beamer_temp_lower=$(echo "$beamer_temp" | awk '{print tolower($0)}')
-    cp aauBeamer/$beamer_temp_lower/beamercolortheme$beamer_temp.sty $install_folder/tex/latex/beamer/themes/color/
-    cp aauBeamer/$beamer_temp_lower/beamerinnertheme$beamer_temp.sty $install_folder/tex/latex/beamer/themes/inner/
-    cp aauBeamer/$beamer_temp_lower/beameroutertheme$beamer_temp.sty $install_folder/tex/latex/beamer/themes/outer/
-    cp aauBeamer/$beamer_temp_lower/beamertheme$beamer_temp.sty $install_folder/tex/latex/beamer/themes/theme/
+    cp beamer/beamercolortheme$beamer_temp.sty $install_folder/tex/latex/beamer/themes/color/
+    cp beamer/beamerinnertheme$beamer_temp.sty $install_folder/tex/latex/beamer/themes/inner/
+    cp beamer/beameroutertheme$beamer_temp.sty $install_folder/tex/latex/beamer/themes/outer/
+    cp beamer/beamertheme$beamer_temp.sty $install_folder/tex/latex/beamer/themes/theme/
 done
 
-#copy graphics 
-cp -R aauBeamer/aalborg/AAUgraphics $install_folder/tex/generic/
+#copy graphics
+cp -R beamer/logos $install_folder/tex/generic/
 cp -R aauPoster/AAUgraphics $install_folder/tex/generic/
 cp -R aauReportTemplate/AAUgraphics $install_folder/tex/generic/
 
