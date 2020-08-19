@@ -5,6 +5,8 @@
 #+EMAIL: davide.paro@studenti.unipd.it
 
 
+#+OPTIONS: toc:nil
+
 #+LaTeX_CLASS_OPTIONS: [aspectratio=169]
 
 #+LATEX_HEADER: \pgfdeclareimage[height=1.5cm]{titlepagelogo}{imgs/unipd_black.png}
